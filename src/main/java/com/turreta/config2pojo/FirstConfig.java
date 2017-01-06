@@ -3,9 +3,6 @@ package com.turreta.config2pojo;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by SANG018 on 1/6/2017.
- */
 @Component
 @ConfigurationProperties(prefix="firstconfig")
 public class FirstConfig {
